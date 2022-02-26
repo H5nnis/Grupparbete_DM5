@@ -50,7 +50,8 @@ ul {
 }
 
 img {
-    height: 250px; 
-    width: 210px;
+    padding-top: 20%;
+    height: 210px; 
+    width: 230px;
     margin: auto;
 }
