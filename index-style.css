@@ -28,6 +28,10 @@ a {
     letter-spacing:0.1rem;
 }
 
+a::hover {
+    color: red;
+}
+
 p {
     background-color: #ffffff;
     color: black;
