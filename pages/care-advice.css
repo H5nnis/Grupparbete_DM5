@@ -42,6 +42,19 @@ p {
     height: auto;
     width: 1200px;
     margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#careinfo {
+    background-color: #ffffff;
+    color: black;
+    height: auto;
+    width: 1200px;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
 }
 
 ul {
