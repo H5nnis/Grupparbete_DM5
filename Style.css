@@ -25,7 +25,17 @@ a {
 p {
     background-color: #ffffff;
     color: black;
-    height: auto;
+    height: 900px;
     width: 1200px;
     margin: auto;
+}
+
+footer {
+    background: rgb(30, 30, 30);
+    background-image: url(BannerImg.png);
+    color: rgb(0, 0, 0);
+    height: 100px;
+    width: 1200px;
+    margin: auto;
+
 }
