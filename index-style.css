@@ -28,6 +28,14 @@ a {
     letter-spacing:0.1rem;
 }
 
+a:hover {
+    color: rgb(27, 71, 88);
+}
+
+a:focus {
+    color: rgb(27, 71, 88);
+}
+
 p {
     background-color: #ffffff;
     color: black;
