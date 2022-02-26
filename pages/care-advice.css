@@ -39,7 +39,18 @@ a:focus {
 p {
     background-color: #ffffff;
     color: black;
-    height: 900px;
+    height: auto;
     width: 1200px;
+    margin: auto;
+}
+
+ul {
+    float: right; 
+    list-style: none;
+}
+
+img {
+    height: 250px; 
+    width: 210px;
     margin: auto;
 }
