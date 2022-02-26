@@ -2,8 +2,8 @@
 *{padding: 0%; margin: 0%;}
 
 body {
-    background-color: rgb(#303030);
-    color: rgb(#ffffff);
+    background-color:#303030;
+    color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -34,4 +34,12 @@ a:hover {
 
 a:focus {
     color: rgb(27, 71, 88);
+}
+
+p {
+    background-color: #ffffff;
+    color: black;
+    height: 900px;
+    width: 1200px;
+    margin: auto;
 }
