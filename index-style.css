@@ -46,8 +46,7 @@ p {
 
 footer {
     background: rgb(30, 30, 30);
-    background-image: url(/images/Dandelion.png);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     height: 100px;
     width: 1200px;
     margin: auto;
