@@ -46,6 +46,13 @@ p {
     padding-bottom: 15px;
 }
 
+.container {
+    width: 1200px;
+    height: auto;
+    background-color: #ffffff;
+    margin: auto;
+    }
+
 #careinfo {
     background-color: #ffffff;
     color: black;
