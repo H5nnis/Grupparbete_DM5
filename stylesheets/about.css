@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+*{padding: 0%; margin: 0%;}
+
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
     display: block;
   }
 }
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
-*{padding: 0%; margin: 0%;}
 
-
+.clearfix {
+	clear: both;
+}
 html {
   box-sizing: border-box;
 }
@@ -16,49 +19,11 @@ html {
   box-sizing: inherit;
 }
 
-.column {
-  float: left;
-  width: 33.3%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
-
-.container {
-  padding: 0 16px;
-}
-
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.title {
-  color: grey;
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #555;
-}
-
-.nav {
+#nav {
     background: rgb(30, 30, 30);
-    background-image: url(../Grupparbete_DM5/images/Dandelion.png);
-    color: rgb(0, 0, 0);
-    height: 50px;
-    width: 1200px;
+    background-image: url(../images/Dandelion.png);
+    
+    width: 1280px;
     margin: auto;
     padding-top: 30px;
     padding-bottom: 20px;
@@ -66,21 +31,101 @@ html {
     font-family: 'Quicksand';
 }
 
-.about-section {
-  padding: 24px;
-  text-align: center;
-  background-color: #474e5d;
+.aboutus-header {
+  #background-color: #474e5d;
+  color: black;
+}
+
+#about-h2 {
+	text-align: center;
+}
+
+#about-p {
+	padding-left: 25%;
+	
+}
+
+.aboutus-section {
+	
+}
+
+.columns {
+	margin: 0 auto;
+	display: flex;
+}
+
+card {
+	width: 50%;
+}
+
+#container {
+	
+}
+
+h3 {
+}
+
+.title {
+  color: grey;
+  text-align: left;
+  padding-left: 1%;
+}
+
+#beskrivning {
+	padding-left: 0%;
+	width: 200px;
+	font-family: 'Red Hat Text', sans-serif;
+	font-size: 15px;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 12px;
   color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+}
+
+form {
+	width: 176px;
+}
+
+#wrapper {
+	text-align: center;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+#textsubject {
+	width: 176px;
+}
+
+#textarea {
+	height: 76px;
+	width: 176px;
+	text-align: left;
 }
 
 body {
-  background-color: #303030;
-  color: #ffffff;
+  #background-color: #303030;
+  color: black;
   font-family: 'Red Hat Display', Helvetica, sans-serif;
   margin: 0;
 }
 
-a {
+#email {
+	color: #6d9bc3;
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#link {
     color: rgb(255, 255, 255);
     padding: 20px;
     padding-left: 20px;
@@ -88,19 +133,12 @@ a {
     letter-spacing:0.1rem;
 }
 
-a:hover {
+#link:hover {
     color: rgb(27, 71, 88);
 }
 
-a:focus {
+#link:focus {
     color: rgb(27, 71, 88);
-}
-p {
-    # background-color: #ffffff;
-    color: black;
-    height: 100%;
-    width: 94%;
-    padding-left: 3%;
 }
 
 footer {
