@@ -9,7 +9,7 @@ body {
 
 .nav {
     background: rgb(30, 30, 30);
-    background-image: url(../images/kittens2.jpg);
+    background-image: url(../images/kittens5.jpg);
     color: rgb(0, 0, 0);
     height: 60px;
     width: 1200px;
@@ -21,7 +21,7 @@ body {
 }
 
 a {
-    color: rgb(112, 91, 117);
+    color: rgb(255, 255, 255);
     padding: 20px;
     padding-left: 20px;
     text-decoration: none;
@@ -29,11 +29,11 @@ a {
 }
 
 a:hover {
-    color: rgb(27, 71, 88);
+    color: rgb(166, 209, 219);
 }
 
 a:focus {
-    color: rgb(27, 71, 88);
+    color: rgb(166, 209, 219);
 }
 
 p {
