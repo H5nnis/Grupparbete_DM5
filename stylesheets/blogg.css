@@ -44,13 +44,17 @@ a:focus {
     color: black;
 }
 
+tr td:first-child{
+    width: 10px;
+}
+
 .container1 {
-    max-width: 1950px;
+    width: 100%;
     height: 300px;
 }
 
 .container2 {
-    max-width: 1950px;
+    width: 100%;
     height: 300px;
     border-top: #303030 5px solid;
 }

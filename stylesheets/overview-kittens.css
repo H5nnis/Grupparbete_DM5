@@ -29,11 +29,11 @@ a {
 }
 
 a:hover {
-    color: rgb(166, 209, 219);
+    color: #a6d1db;
 }
 
 a:focus {
-    color: rgb(166, 209, 219);
+    color: #a6d1db;
 }
 
 #main-container {
@@ -43,52 +43,19 @@ a:focus {
     border: none;
 }
 
+tr td:first-child{
+    width: 10px;
+}
+
 .container1 {
-    min-width: 700px;
-    height: 300px;
-    border: none;
+    width: 100%;
+    height: auto;
 }
 
 .container2 {
-    min-width: 700px;
-    height: 300px;
+    width: 100%;
+    height: auto;
     border-top: #303030 5px solid;
-}
-
-.box1 {
-    display: inline-block;
-    vertical-align: top;
-    background-image: url(../images/Kitten4S.png);
-    width: 290px;
-    height: 290px;
-    margin: 5px;
-}
-
-.box2 {
-    display: inline-block;
-    vertical-align: top;
-    background-image: url(../images/Kitten1S.png);
-    width: 290px;
-    height: 290px;
-    margin: 5px;
-}
-
-.box3 {
-    display: inline-block;
-    vertical-align: top;
-    background-image: url(../images/Kitten5S.jpg);
-    width: 290px;
-    height: 290px;
-    margin: 5px;
-}
-
-.box4 {
-    display: inline-block;
-    vertical-align: top;
-    background-image: url(../images/Kitten2S.png);
-    width: 290px;
-    height: 290px;
-    margin: 5px;
 }
 
 .content {
@@ -113,7 +80,7 @@ a:focus {
 }
 
 footer {
-    background: rgb(30, 30, 30);
+    background: #1e1e1e;
     color: rgb(255, 255, 255);
     height: 100px;
     width: 1200px;
