@@ -73,6 +73,24 @@ a:focus {
     margin: 5px;
 }
 
+.box3 {
+    display: inline-block;
+    vertical-align: top;
+    background-image: url(../images/Kitten5S.jpg);
+    width: 290px;
+    height: 290px;
+    margin: 5px;
+}
+
+.box4 {
+    display: inline-block;
+    vertical-align: top;
+    background-image: url(../images/Kitten2S.png);
+    width: 290px;
+    height: 290px;
+    margin: 5px;
+}
+
 .content {
     display: inline-block;
     vertical-align: top;
