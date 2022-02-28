@@ -36,41 +36,51 @@ a:focus {
     color: rgb(27, 71, 88);
 }
 
-p {
-    background-color: #ffffff;
-    color: black;
-    height: auto;
-    width: 1200px;
+img{
+    height: 200px;px;
+    width: 200px;px;
+    position:center;
+}
+
+#main-container {
+    border: none;
+    max-width: 1200px;
     margin: auto;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    background-color: #e6e1dc;
+    color: black;
 }
 
 .container {
-    width: 1200px;
-    height: auto;
-    background-color: #ffffff;
-    margin: auto;
-    }
-
-#careinfo {
-    background-color: #ffffff;
-    color: black;
-    height: auto;
-    width: 1200px;
-    margin: auto;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    max-width: 1200px;
+    min-height: 200px;
+    max-height: auto;
 }
 
-ul {
-    float: right; 
-    list-style: none;
+.content {
+    position: sticky;
+    display: inline-block;
+    vertical-align: top;  
 }
 
-img {
-    padding-top: 20%;
-    height: 210px; 
-    width: 230px;
+.title, .textinfo {
+    margin: 5px;
+    text-align: left;
+}
+
+.title {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.textinfo {
+    font-weight: normal;
+    color: #000000;
+}
+
+footer {
+    background: rgb(30, 30, 30);
+    color: rgb(255, 255, 255);
+    height: 100px;
+    width: 1200px;
     margin: auto;
 }

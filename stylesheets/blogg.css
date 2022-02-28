@@ -36,41 +36,49 @@ a:focus {
     color: rgb(166, 209, 219);
 }
 
-p {
-    background-color: rgb(255, 255, 255);
+#main-container {
+    border: none;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #e6e1dc;
     color: black;
-    height: auto;
-    width: 1200px;
-    margin: auto;
-    padding-top: 15px;
-    padding-bottom: 15px;
 }
 
-.container {
-    width: 1200px;
-    height: auto;
-    background-color: #ffffff;
-    margin: auto;
-    }
-
-#careinfo {
-    background-color: #ffffff;
-    color: black;
-    height: auto;
-    width: 1200px;
-    margin: auto;
-    padding-top: 15px;
-    padding-bottom: 15px;
+.container1 {
+    max-width: 1950px;
+    height: 300px;
 }
 
-ul {
-    float: right; 
-    list-style: none;
+.container2 {
+    max-width: 1950px;
+    height: 300px;
+    border-top: #303030 5px solid;
 }
 
-img {
-    padding-top: 20%;
-    height: 210px; 
-    width: 230px;
+.content {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.title, .textinfo {
+    margin: 5px;
+    text-align: left;
+}
+
+.title {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.textinfo {
+    font-weight: normal;
+    color: #000000;
+}
+
+footer {
+    background: rgb(30, 30, 30);
+    color: rgb(255, 255, 255);
+    height: 100px;
+    width: 1200px;
     margin: auto;
 }

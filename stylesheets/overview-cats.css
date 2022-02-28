@@ -37,16 +37,22 @@ a:focus {
 }
 
 #main-container {
-    border: 5px solid #3F3F3F;
-    width: 1190px;
+    border: none;
+    max-width: 1200px;
     margin: auto;
+    background-color: #e6e1dc;
+    color: black;
 }
 
-.container {
-    width: 1170px;
+.container1 {
+    min-width: 700px;
     height: 300px;
-    border: 5px solid #533f44;
-    margin: 5px;
+}
+
+.container2 {
+    max-width: 1950px;
+    height: 300px;
+    border-top: 5px solid #303030;
 }
 
 .box1 {
@@ -76,6 +82,7 @@ a:focus {
 .title, .textinfo {
     margin: 0;
     padding: 3px 10px 3px 0;
+    color: black;
 }
 
 .title {
@@ -85,5 +92,12 @@ a:focus {
 }
 .textinfo {
     font-weight: normal;
-    color: #ffffff;
+}
+
+footer {
+    background: rgb(30, 30, 30);
+    color: rgb(255, 255, 255);
+    height: 100px;
+    width: 1200px;
+    margin: auto;
 }

@@ -36,30 +36,38 @@ a:focus {
     color: rgb(27, 71, 88);
 }
 
-p {
-    background-color: #ffffff;
-    color: black;
-    height: auto;
-    width: 1200px;
+#main-container {
+    border: none;
+    max-width: 1200px;
     margin: auto;
+    background-color: #e6e1dc;
+    color: black;
 }
 
 .container {
-    width: 1200px;
-    height: auto;
-    background-color: #ffffff;
-    margin: auto;
-    }
+    min-width: 700px;
+    height: 300px;
+}
 
-#contactinfo {
-    background-color: #ffffff;
-    color: black;
-    height: auto;
-    width: 1200px;
-    margin: auto;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}    
+.content {
+    display: inline-block;
+    vertical-align: top;  
+}
+
+.title, .textinfo {
+    margin: 5px;
+    text-align: left;
+}
+
+.title {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.textinfo {
+    font-weight: normal;
+    color: #000000;
+}
 
 footer {
     background: rgb(30, 30, 30);
@@ -67,5 +75,4 @@ footer {
     height: 100px;
     width: 1200px;
     margin: auto;
-
 }
