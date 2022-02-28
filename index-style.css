@@ -36,12 +36,34 @@ a:focus {
     color: rgb(27, 71, 88);
 }
 
-p {
-    background-color: #ffffff;
-    color: black;
-    height: auto;
+#main-container {
+    border: none;
     width: 1200px;
     margin: auto;
+}
+
+.container {
+    width: 1950px;
+    height: 300px;
+}
+
+.content {
+    display: inline-block;
+    vertical-align: top;  
+}
+
+.title, .textinfo {
+    margin: 5px;
+}
+
+.title {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.textinfo {
+    font-weight: normal;
+    color: #ffffff;
 }
 
 footer {
