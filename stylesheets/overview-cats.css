@@ -36,43 +36,54 @@ a:focus {
     color: rgb(27, 71, 88);
 }
 
-p {
-    background-color: #ffffff;
-    color: black;
-    height: auto;
-    width: 1200px;
+#main-container {
+    border: 5px solid #3F3F3F;
+    width: 1190px;
     margin: auto;
-    padding-top: 15px;
-    padding-bottom: 15px;
 }
 
 .container {
-    width: 1200px;
-    height: auto;
-    background-color: #ffffff;
-    margin: auto;    
+    width: 1170px;
+    height: 300px;
+    border: 5px solid #2f5177;
+    margin: 5px;
 }
 
-#catparents {
-    background-color: #ffffff;
-    color: black;
-    height: auto;
-    width: 1200px;
-    margin: auto;
-    padding-top: 15px;
-    padding-bottom: 15px;
+.box1 {
+    display: inline-block;
+    vertical-align: top;
+    background-image: url(../images/CatmomS.png);
+    width: 290px;
+    height: 290px;
+    margin: 5px;
 }
 
-#catparentsinfo {
-    width: fit-content;
-    margin: auto;
+.box2 {
+    display: inline-block;
+    vertical-align: top;
+    background-image: url(../images/CatdadS.png);
+    width: 290px;
+    height: 290px;
+    margin: 5px;
 }
 
-ul {
-    list-style: none;
+.content {
+    display: inline-block;
+    vertical-align: top;
+    
 }
 
-img {
-    height: 230px;
-    width: 230px;
+.title, .textinfo {
+    margin: 0;
+    padding: 3px 10px 3px 0;
+}
+
+.title {
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.textinfo {
+    font-weight: normal;
+    color: #ffffff;
 }
