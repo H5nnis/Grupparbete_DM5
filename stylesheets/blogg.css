@@ -65,13 +65,15 @@ tr td:first-child{
 
 .container1 {
     width: 100%;
-    height: 300px;
+    height: auto;
+    padding-bottom: 20px;
 }
 
 .container2 {
     width: 100%;
-    height: 300px;
+    height: auto;
     border-top: #303030 5px solid;
+    padding-bottom: 20px;
 }
 
 .content {
