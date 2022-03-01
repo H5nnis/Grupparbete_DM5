@@ -31,12 +31,25 @@ html {
     font-family: 'Quicksand';
 }
 
+#all-content {
+
+}
+
 .aboutus-header {
-  #background-color: #474e5d;
-  color: black;
+	#background-color: #474e5d;
+	color: black;
+	#text-align: center;
+}
+
+#about-us-heading {
+	text-align: center;
 }
 
 #about-h2 {
+	text-align: center;
+}
+
+#about-h3 {
 	text-align: center;
 }
 
@@ -45,7 +58,29 @@ html {
 	
 }
 
-.aboutus-section {
+#container-content {
+	
+}
+
+.about-us-columns {
+	margin: 0 auto;
+	display: flex;
+	width: 1280px;
+	height: 360px;;
+}
+
+.about-us-left {
+
+}
+.about-us-right {
+
+}
+
+.container-contact {
+	
+}
+
+.aboutus-contact {
 	
 }
 
@@ -54,15 +89,8 @@ html {
 	display: flex;
 }
 
-card {
+.card-left {
 	width: 50%;
-}
-
-#container {
-	
-}
-
-h3 {
 }
 
 .title {
@@ -78,27 +106,15 @@ h3 {
 	font-size: 15px;
 }
 
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 12px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
+#email {
+	color: #6d9bc3;
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 12px;
+	text-decoration: none;
 }
 
 form {
 	width: 176px;
-}
-
-#wrapper {
-	text-align: center;
-}
-
-.button:hover {
-  background-color: #555;
 }
 
 #textsubject {
@@ -111,18 +127,38 @@ form {
 	text-align: left;
 }
 
+#wrapper {
+	text-align: center;
+}
+
+#container-contact {
+	
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.card-right {
+	width:50%;
+}
+
 body {
   #background-color: #303030;
   color: black;
   font-family: 'Red Hat Display', Helvetica, sans-serif;
   margin: 0;
-}
-
-#email {
-	color: #6d9bc3;
-	font-family: 'Red Hat Display', sans-serif;
-	font-size: 12px;
-	text-decoration: none;
 }
 
 #link {
