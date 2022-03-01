@@ -88,7 +88,8 @@ html {
 }
 
 .aboutus-contact {
-	
+	padding-top: 24px;
+	padding-bottom: 24px;
 }
 
 .columns {
@@ -184,11 +185,28 @@ body {
     color: rgb(27, 71, 88);
 }
 
-footer {
-    background: rgb(30, 30, 30);
-    color: rgb(255, 255, 255);
-    height: 100px;
-    width: 1200px;
-    margin: auto;
+#instagram {
+	text-align: center;
+	height: 80px; 
+	#width: 80px; 
+	padding-left: 45%; 
+	padding-top: 10px;
+}
 
+.container-footer {
+	display: flex;
+	width: 100%;
+}
+
+footer {
+    background: black;
+    #color: rgb(255, 255, 255);
+    height: 92px;
+    width: 100%;
+    margin: auto;
+}
+
+.footer-filler {
+	width: 45%;
+	height: 80px;
 }
