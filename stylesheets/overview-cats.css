@@ -2,7 +2,7 @@
 *{padding: 0%; margin: 0%;}
 
 header {    
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     height: auto;
     width: 1200px;
     margin: auto;
@@ -35,7 +35,7 @@ body {
 }
 
 a {
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     padding: 20px;
     padding-left: 20px;
     padding-top: 20px;
