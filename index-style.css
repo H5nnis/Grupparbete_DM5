@@ -1,6 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 *{padding: 0%; margin: 0%;}
 
+header {    
+    color: rgb(255, 255, 255);
+    height: auto;
+    width: 1200px;
+    margin: auto;
+}
+
+img {
+    height: 160px;
+    width: 1200px;
+    padding-bottom: 0%;
+    border: none;
+    padding: 0%; 
+    margin: 0%;
+}
+
 body {
     background-color: #303030;
     color: #ffffff;
@@ -8,16 +24,11 @@ body {
   }
 
 .nav {
-    background: rgb(30, 30, 30);
-    background-image: url(../Grupparbete_DM5/images/Dandelion.png);
+    background: #1e1e1e;
     color: rgb(0, 0, 0);
-    height: 50px;
+    height: 80px;
     width: 1200px;
     margin: auto;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    font-size: 25px;
-    font-family: 'Quicksand';
 }
 
 a {
@@ -26,18 +37,20 @@ a {
     padding-left: 20px;
     text-decoration: none;
     letter-spacing:0.1rem;
+    font-size: 25px;
+    font-family: 'Quicksand';
 }
 
 a:hover {
-    color: rgb(27, 71, 88);
+    color: #a6d1db;
 }
 
 a:focus {
-    color: #1b4758;
+    color: #a6d1db;
 }
 
 #main-container {
-    border: none;
+    margin-top: 0%;
     max-width: 1200px;
     margin: auto;
     background-color: #e6e1dc;
@@ -68,17 +81,11 @@ a:focus {
     color: #000000;
 }
 
-img {
-    height: 80px; 
-    width: 80px; 
-    margin-left: 50%;
-    padding-top: 10px;
-}
-
-footer a {
+footer img {
     padding: 0;
     height: 80px; 
     width: 80px;
+    margin-left: 50%;
 }
 
 footer {
