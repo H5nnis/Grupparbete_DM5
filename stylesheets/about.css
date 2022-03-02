@@ -42,7 +42,7 @@ html {
 }
 
 #about-us-heading {
-	text-align: center;
+	padding-left: 45%;
 }
 
 #about-h2 {
@@ -72,6 +72,7 @@ html {
 .about-us-left {
 	height: 100%;
 	width: 32%;
+	padding-left: 4%;
 }
 .about-us-right {
 	height: 100%;
@@ -93,7 +94,7 @@ html {
 
 #img-left {
 	display: block;
-	margin-left: 45%;
+	margin-left: 55%;
 	width: 150px;
 }
 
@@ -106,7 +107,7 @@ html {
 
 #description-left {
 	padding-top: 24px;
-	padding-left: 45%;
+	padding-left: 55%;
 }
 
 #description-right {
@@ -144,11 +145,13 @@ html {
 }
 
 .card-left {
+	display: block;
 	width: 20%;
-	padding-left: 5%;
+	padding-left: 10%;
 }
 
 .card-right {
+	display: block;
 	width:20%;
 	padding-left: 1%;
 }
@@ -255,6 +258,6 @@ footer {
 }
 
 .footer-filler {
-	width: 45%;
+	width: 50%;
 	height: 80px;
 }
