@@ -78,6 +78,29 @@ html {
 	width: 32%;
 }
 
+.image-filler {
+
+}
+
+.about-us-left-image {
+	padding-left: 50%;
+}
+
+.about-us-right-image {
+
+}
+
+#img-left {
+	display: block;
+	margin-left: 50%;
+	width: 150px;
+}
+#img-right {
+	display: block;
+	margin-left: 25%;
+	width: 150px;
+}
+
 .about-us-filler {
 	height: 100%;
 	width: 20%;
