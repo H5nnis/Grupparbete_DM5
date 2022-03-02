@@ -65,22 +65,27 @@ html {
 .about-us-columns {
 	margin: 0 auto;
 	display: flex;
-	width: 1280px;
+	width: 100%;
 	height: 360px;;
 }
 
 .about-us-left {
 	height: 100%;
-	width: 35%;
+	width: 32%;
 }
 .about-us-right {
 	height: 100%;
-	width: 35%;
+	width: 32%;
 }
 
 .about-us-filler {
 	height: 100%;
-	width: 10%;
+	width: 20%;
+}
+
+.about-us-content-filler {
+	height: 100%;
+	width: 12%;
 }
 
 .container-contact {
@@ -98,11 +103,13 @@ html {
 }
 
 .card-left {
-	width: 35%;
+	width: 20%;
+	padding-left: 5%;
 }
 
 .card-right {
-	width:35%;
+	width:20%;
+	padding-left: 1%;
 }
 
 .title {
@@ -186,11 +193,7 @@ body {
 }
 
 #instagram {
-	text-align: center;
-	height: 80px; 
-	#width: 80px; 
-	padding-left: 45%; 
-	padding-top: 10px;
+	height: 80px;
 }
 
 .container-footer {
