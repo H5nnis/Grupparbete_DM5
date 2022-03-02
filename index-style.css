@@ -73,8 +73,8 @@ a:focus {
 
 .secondcontent {
     width: 40%;
-    background-color: #b4aba1;
-    color: #000000;
+    background-color: #3f565a;
+    color: #ffffff;
 }
 
 .tableheader {
@@ -87,8 +87,8 @@ a:focus {
     text-align: right;
     padding-left: 5px;
     padding-right: 5px;
-    background-color: #1e1e1e;
-    color: #ffffff;
+    background-color: #5e6d6e;
+    color: #000000;
     display: block;
 }
 
