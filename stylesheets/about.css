@@ -24,7 +24,7 @@ html {
     background-image: url(../images/Dandelion.png);
     
     width: 1280px;
-    margin: auto;
+    margin: 0 auto;
     padding-top: 30px;
     padding-bottom: 20px;
     font-size: 25px;
@@ -32,7 +32,13 @@ html {
 }
 
 #all-content {
+	margin: 0 auto;
+}
 
+body {
+  #background-color: #303030;
+  color: black;
+  font-family: 'Red Hat Display', Helvetica, sans-serif;
 }
 
 .aboutus-header {
@@ -51,9 +57,8 @@ html {
 	text-align: center;
 }
 
-#about-h3 {
+h3 {
 	text-align: center;
-	padding-top: 1%;
 }
 
 #about-p {
@@ -67,28 +72,27 @@ html {
 }
 
 .about-us-columns {
+	display: flex;
+	margin: 0 auto;
+	height: 360px;
+}
+
+.columns {
 	margin: 0 auto;
 	display: flex;
-	width: 100%;
-	height: 360px;;
 }
 
 .about-us-left {
 	height: 100%;
-	width: 32%;
-	padding-left: 4%;
+	margin: 0 auto;
 }
 .about-us-right {
 	height: 100%;
-	width: 32%;
+	margin: 0 auto;
 }
 
-.image-filler {
-
-}
 
 .about-us-left-image {
-	padding-left: 50%;
 	padding-bottom: 24px;
 }
 
@@ -98,40 +102,21 @@ html {
 
 #img-left {
 	display: block;
-	margin-left: 50%;
 	width: 150px;
 }
 
 #img-right {
 	display: block;
-	margin-left: 15%;
 	width: 174px;
 	height: 225px;
 }
 
 #description-left {
 	padding-top: 24px;
-	padding-left: 50%;
 }
 
 #description-right {
 	padding-top: 24px;
-	padding-left: 15%;
-}
-
-.content-filler {
-	width: 100åx;
-	height: 100%;
-}
-
-.about-us-filler {
-	height: 100%;
-	width: 20%;
-}
-
-.about-us-content-filler {
-	height: 100%;
-	width: 12%;
 }
 
 .container-contact {
@@ -143,34 +128,26 @@ html {
 	padding-bottom: 24px;
 }
 
-.columns {
+.cards {
 	margin: 0 auto;
-	display: flex;
+	display: block;
+	text-align: left;
 }
 
 .card-left {
-	display: block;
-	width: 20%;
-	padding-left: 9.5%;
 }
 
 .card-right {
-	display: block;
-	width:20%;
-	padding-left: 0.5%;
 }
 
-.title {
+#name {
+	padding-left: 0%;
+	text-align: left;
+}
+
+.jobtitle {
   color: grey;
   text-align: left;
-  padding-left: 1%;
-}
-
-#beskrivning {
-	padding-left: 0%;
-	width: 200px;
-	font-family: 'Red Hat Text', sans-serif;
-	font-size: 15px;
 }
 
 #email {
@@ -186,6 +163,16 @@ form {
 
 #textsubject {
 	width: 176px;
+}
+
+.aboutus-contact {
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+.columns {
+	margin: 0 auto;
+	display: flex;
 }
 
 #textarea {
@@ -215,13 +202,6 @@ form {
 
 .button:hover {
   background-color: #555;
-}
-
-body {
-  #background-color: #303030;
-  color: black;
-  font-family: 'Red Hat Display', Helvetica, sans-serif;
-  margin: 0;
 }
 
 #link {
@@ -264,4 +244,34 @@ footer {
 .footer-filler {
 	width: 50%;
 	height: 80px;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  height: 40px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  background: #FFF;
+  border-radius: 2px;
+  border: 1px solid #a4a4a4;
+  font-size: 15px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  transition: all .2s ease;
+}
+
+.input:hover,
+.textarea:hover {
+  border: 1px solid #111111;
+}
+
+.input:focus,
+.textarea:focus {
+  outline: none;
+  border: 1px solid #104cfb;
+}
+
+.textarea {
+  min-height: 7rem;
 }
