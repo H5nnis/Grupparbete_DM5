@@ -129,13 +129,25 @@ footer img {
     padding: 0;
     height: 80px; 
     width: 80px;
-    margin-left: 190px;
+    float: left;
 }
 
-footer {
+.container-footer {
     background-color: #1e1e1e;
     color: #ffffff;
     height: 100px;
     width: 1200px;
     margin: auto;
+}
+
+.container-bottom {
+    width: 100%;
+}
+
+#one-foot {
+    width: 50%;
+}
+
+#two-foot {
+    width: 50%;
 }
