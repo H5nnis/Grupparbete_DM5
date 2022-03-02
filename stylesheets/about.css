@@ -84,21 +84,39 @@ html {
 
 .about-us-left-image {
 	padding-left: 50%;
+	padding-bottom: 24px;
 }
 
 .about-us-right-image {
-
+	padding-bottom: 24px;
 }
 
 #img-left {
 	display: block;
-	margin-left: 50%;
+	margin-left: 45%;
 	width: 150px;
 }
+
 #img-right {
 	display: block;
-	margin-left: 25%;
-	width: 150px;
+	margin-left: 15%;
+	width: 174px;
+	height: 225px;
+}
+
+#description-left {
+	padding-top: 24px;
+	padding-left: 45%;
+}
+
+#description-right {
+	padding-top: 24px;
+	padding-left: 15%;
+}
+
+.content-filler {
+	width: 100åx;
+	height: 100%;
 }
 
 .about-us-filler {
