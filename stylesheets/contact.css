@@ -83,11 +83,29 @@ a:focus {
     font-weight: normal;
     color: #000000;
 }
+footer img {
+    padding: 0;
+    height: 80px; 
+    width: 80px;
+    float: left;
+}
 
-footer {
-    background: rgb(30, 30, 30);
-    color: rgb(255, 255, 255);
+.container-footer {
+    background-color: #1e1e1e;
+    color: #ffffff;
     height: 100px;
     width: 1200px;
     margin: auto;
+}
+
+.container-bottom {
+    width: 100%;
+}
+
+#one-foot {
+    width: 50%;
+}
+
+#two-foot {
+    width: 50%;
 }
