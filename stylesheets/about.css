@@ -33,6 +33,7 @@ html {
 
 #all-content {
 	margin: 0 auto;
+	width: 1280px;
 }
 
 body {
@@ -45,6 +46,8 @@ body {
 	#background-color: #474e5d;
 	color: black;
 	#text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 #about-us-heading {
@@ -63,18 +66,19 @@ h3 {
 
 #about-p {
 	text-align: center;
-	padding-top: 1%;
-	padding-bottom: 1%;
 }
 
-#container-content {
-	
+.container-contact {
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 .about-us-columns {
 	display: flex;
 	margin: 0 auto;
-	height: 360px;
+	height: 100%;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 .columns {
@@ -85,12 +89,12 @@ h3 {
 .about-us-left {
 	height: 100%;
 	margin: 0 auto;
+	float: right;
 }
 .about-us-right {
 	height: 100%;
 	margin: 0 auto;
 }
-
 
 .about-us-left-image {
 	padding-bottom: 24px;
@@ -103,12 +107,23 @@ h3 {
 #img-left {
 	display: block;
 	width: 150px;
+	border-radius: 50%;
+	margin-left: 30%;
 }
 
 #img-right {
 	display: block;
 	width: 174px;
 	height: 225px;
+	border-radius: 50%;
+	margin-left: 30%;
+}
+
+.about-us-left-content {
+}
+
+.about-us-right-content {
+
 }
 
 #description-left {
@@ -119,9 +134,6 @@ h3 {
 	padding-top: 24px;
 }
 
-.container-contact {
-	
-}
 
 .aboutus-contact {
 	padding-top: 24px;
@@ -132,6 +144,7 @@ h3 {
 	margin: 0 auto;
 	display: block;
 	text-align: left;
+	width: 20%;
 }
 
 .card-left {
@@ -185,8 +198,12 @@ form {
 	text-align: center;
 }
 
-#container-contact {
+.container-contact {
 	
+}
+
+.container-content {
+	width: 1280px;
 }
 
 .button {
@@ -220,24 +237,20 @@ form {
     color: rgb(27, 71, 88);
 }
 
-#image-wrap {
-	padding-top: 5px;
-}
-
 #instagram {
 	height: 80px;
 }
 
 .container-footer {
 	display: flex;
-	width: 100%;
+	width: 1280px;
 }
 
 footer {
     background: black;
     #color: rgb(255, 255, 255);
     height: 92px;
-    width: 100%;
+    width: 1280px;
     margin: auto;
 }
 
