@@ -109,6 +109,10 @@ td img {
     border: #1e1e1e 5px solid;
 }
 
+.textinfo {
+    padding-right: 100px;
+}
+
 .title, .textinfo {
     margin-left: 5px;
     text-align: left;
