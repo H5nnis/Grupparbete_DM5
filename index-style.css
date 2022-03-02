@@ -56,13 +56,11 @@ a:focus {
     margin: auto;
     background-color: #1e1e1e;
     color: black;
-    height: 600px;
 }
 
 .container1 {
     width: 100%;
     height: 600px;
-    float: left;
     background-color: #f5f5f5;
 }
 
@@ -89,7 +87,6 @@ a:focus {
     padding-right: 5px;
     background-color: #5e6d6e;
     color: #000000;
-    display: block;
 }
 
 td a {
@@ -110,6 +107,10 @@ td img {
     height: 260px;
     float: right;
     border: #1e1e1e 5px solid;
+}
+
+.textinfo {
+    padding-right: 100px;
 }
 
 .title, .textinfo {
