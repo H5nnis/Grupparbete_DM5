@@ -104,19 +104,26 @@ h3 {
 	padding-bottom: 24px;
 }
 
+#img-wrap {
+	margin: 0 auto;
+}
+
 #img-left {
 	display: block;
 	width: 150px;
+	height: auto;
 	border-radius: 50%;
 	margin-left: 30%;
+	max-width: 100%;
 }
 
 #img-right {
 	display: block;
 	width: 174px;
-	height: 225px;
+	height: auto;
 	border-radius: 50%;
 	margin-left: 30%;
+	max-width: 100%;
 }
 
 .about-us-left-content {
@@ -238,7 +245,9 @@ form {
 }
 
 #instagram {
-	height: 80px;
+	padding-top: 10px;
+	margin: 0 auto;
+	max-height: 80px;
 }
 
 .container-footer {
@@ -287,4 +296,12 @@ footer {
 
 .textarea {
   min-height: 7rem;
+}
+
+#grad1 {
+	background: linear-gradient(to right, purple, cyan, orange, yellow, green, cyan, blue, violet);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 16px;
+	padding-top: 24px;
 }
