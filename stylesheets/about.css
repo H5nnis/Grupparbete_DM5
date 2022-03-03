@@ -23,7 +23,7 @@ html {
     background: rgb(30, 30, 30);
     background-image: url(../images/Dandelion.png);
     
-    width: 1280px;
+    width: 1200px;
     margin: 0 auto;
     padding-top: 30px;
     padding-bottom: 20px;
@@ -210,7 +210,7 @@ form {
 }
 
 .container-content {
-	width: 1280px;
+	width: 1200px;
 }
 
 .button {
@@ -252,14 +252,14 @@ form {
 
 .container-footer {
 	display: flex;
-	width: 1280px;
+	width: 1200px;
 }
 
 footer {
     background: #1e1e1e;
     #color: rgb(255, 255, 255);
     height: 92px;
-    width: 1280px;
+    width: 1200px;
     margin: auto;
 }
 
