@@ -17,12 +17,19 @@ Webbsajten ni ska bygga är någonting av följande:
 
 ### Kriterier  
 
-- [ ] Webbsajten ska byggas med HTML5 och CSS (dock inte med absolut positionering).  
-- [ ] Sätt in elementet ‘<meta name="robots" content="noindex,nofollow">’, så förhindrar ni att projektplatsen indexeras av sökmotorerna. Ingen utomstående kan hitta och se ert material.  
-- [ ] Din hemsida (1:a sidan i en webbsajt) bör innehålla 7 +-2 länkar, dvs. lägst fem och högst nio.  
-- [ ] Minst fem av sidans länkar ska gå till egenproducerade undersidor. Övriga länkar kan gå till externa webbsidor.  
+- [X] Webbsajten ska byggas med HTML5 och CSS (dock inte med absolut positionering).  
+- [X] Sätt in elementet \<meta name="robots" content="noindex,nofollow"\>, så förhindrar ni att projektplatsen indexeras av sökmotorerna. Ingen utomstående kan hitta och se ert material.  
+- [X] Din hemsida (1:a sidan i en webbsajt) bör innehålla 7 +-2 länkar, dvs. lägst fem och högst nio. == 7
+- [X] Minst fem av sidans länkar ska gå till egenproducerade undersidor. Övriga länkar kan gå till externa webbsidor.  
 - [ ] Det ska kunna gå att validera sidans HTML5-kod med godkänt resultat. Er CSS-kod kan vara underkänd om det rör sig om kod som följer med ex ett bildspel eller Google Calendar.  
-- [ ] Vilka sökord ska er webbsajt sökmotorsoptimeras för? Studera dokumentet "Handbok för SEO-optimering". Webbsajten ska SEO-optimeras så att 1:a sidan får minst 70 av 100 poäng på vardera av 2-4 sökord som ni valt, då 1:a sidan SEO-valideras. OBS! Ett av sökorden ska vara webbsajtens namn. Följande valideringstjänst ska användas: http://www.sokmotorkonsult.se/verktyg/onpage. Ange som kommentar i er kod vilka sökord ni har valt och vilka åtgärder ni har gjort för att optimera SEO.  
+- [ ] Vilka sökord ska er webbsajt sökmotorsoptimeras för?
+
+> Studera dokumentet "Handbok för SEO-optimering".
+> Webbsajten ska SEO-optimeras så att 1:a sidan får minst 70 av 100 poäng på vardera av 2-4 sökord som ni valt, då 1:a sidan SEO-valideras.
+> OBS! Ett av sökorden ska vara webbsajtens namn.
+> Följande valideringstjänst ska användas: http://www.sokmotorkonsult.se/verktyg/onpage.
+> Ange som kommentar i er kod vilka sökord ni har valt och vilka åtgärder ni har gjort för att optimera SEO.  
+
 - [ ] Webbsajten ska fungera väl i Chrome  
 - [ ] Webbsajten ska publiceras på skolans eller egen webbserver.  
 - [ ] Webbsajtens URL ska publiceras i Learn under Uppgifter > Projektet.  
