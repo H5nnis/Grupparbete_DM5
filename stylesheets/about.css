@@ -9,7 +9,10 @@
 }
 
 .clearfix {
+    height: auto;
+    border-top: #ffffff 5px solid;
 	clear: both;
+	background-color: white;
 }
 html {
   box-sizing: border-box;
@@ -42,18 +45,18 @@ html {
 }
 
 body {
-  #background-color: #303030;
+  background-color: #303030;
   color: black;
   font-family: 'Red Hat Display', Helvetica, sans-serif;
   margin: 0 auto;
 }
 
 .aboutus-header {
-	#background-color: #474e5d;
 	color: black;
-	#text-align: center;
 	margin-left: 10%;
 	margin-right: 10%;
+	margin-top: 10px;
+	margin-bottom: 24px;
 }
 
 #about-us-heading {
@@ -64,10 +67,12 @@ body {
 
 #about-h2 {
 	text-align: center;
+	margin-bottom: 10px;
 }
 
 h3 {
 	text-align: center;
+	margin-bottom: 10px;
 }
 
 #about-p {
