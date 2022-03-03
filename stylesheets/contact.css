@@ -101,9 +101,13 @@ footer img {
 }
 
 #one-foot {
-    width: 50%;
+    width: 40%;
 }
 
 #two-foot {
-    width: 50%;
+    width: 20%;
+}
+
+#three-foot {
+    width: 40%;
 }
