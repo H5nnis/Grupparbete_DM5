@@ -60,4 +60,4 @@ Kittens||||||
 
 • För att underlätta valideringen ska mallen för laborationen användas på webbplatsens samtliga sidor. Mallens direktlänkar till html- och css-validering kan tas bort efter att er webbsajt blivit granskad och godkänd.  
 
-• Sätt in elementet så förhindrar ni att projektplatsen indexeras av sökmotorerna. Ingen utomstående kan hitta och se ert material. 
+• Sätt in elementet \<meta name="robots" content="noindex,nofollow"\> så förhindrar ni att projektplatsen indexeras av sökmotorerna. Ingen utomstående kan hitta och se ert material. 
