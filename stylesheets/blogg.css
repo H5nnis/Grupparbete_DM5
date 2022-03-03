@@ -33,10 +33,24 @@ body {
     font-family: 'Quicksand';
 }
 
-a {
+.navlink {
     color: #ffffff;
     padding: 20px;
     padding-left: 20px;
+    text-decoration: none;
+    letter-spacing:0.1rem;
+}
+
+.navlink:hover {
+    color: #a6d1db;
+}
+
+.navlink:focus {
+    color: #a6d1db;
+}
+
+a {
+    color: #ffffff;
     text-decoration: none;
     letter-spacing:0.1rem;
 }
@@ -95,10 +109,8 @@ tr td:first-child{
 }
 
 footer img {
-    padding-top: 7px;
     height: 80px; 
     width: 80px;
-    float: left;
 }
 
 .container-footer {
@@ -106,6 +118,7 @@ footer img {
     color: #ffffff;
     height: 100px;
     width: 1200px;
+    margin: 0 auto;
 }
 
 .container-bottom {
@@ -119,7 +132,11 @@ footer img {
 }
 
 #two-foot {
-    width: 50%;
+    width: 5%;
+}
+
+#three-foot {
+	width: 45%;
 }
 
 #grad1 {
@@ -127,7 +144,5 @@ footer img {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-size: 16px;
-	height: 100px;
-	width: 200px;	
 }
 
