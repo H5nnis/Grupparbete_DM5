@@ -31,7 +31,7 @@ body {
     margin: auto;
 }
 
-a {
+.navlink {
     color: #ffffff;
     padding: 25px;
     padding-left: 20px;
@@ -41,11 +41,11 @@ a {
     font-family: 'Quicksand';
 }
 
-a:hover {
+.navlink:hover {
     color: #a6d1db;
 }
 
-a:focus {
+.navlink:focus {
     color: #a6d1db;
 }
 
@@ -144,15 +144,22 @@ footer img {
 .container-bottom {
     width: 100%;
 }
-
 #one-foot {
-    width: 40%;
+    width: 50%;
+    text-align: center;
 }
 
 #two-foot {
-    width: 20%;
+    width: 5%;
 }
 
 #three-foot {
-    width: 40%;
+	width: 45%;
+}
+
+#grad1 {
+	background: linear-gradient(to right, purple, cyan, orange, yellow, green, cyan, blue, violet);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 16px;
 }
