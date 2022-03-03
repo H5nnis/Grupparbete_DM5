@@ -47,6 +47,8 @@ Kittens||||||
 
 [GoMockingBird](https://gomockingbird.com/mockingbird/)
 
+[Handbok för SEO-optimering](https://github.com/H5nnis/Grupparbete_DM5/files/8181912/Handbok.for.SEO-optimering.1.pdf)
+
 - [ ] Webbsajten ska fungera väl i Chrome  
 - [ ] Webbsajten ska publiceras på skolans eller egen webbserver.  
 - [ ] Webbsajtens URL ska publiceras i Learn under Uppgifter > Projektet.  
