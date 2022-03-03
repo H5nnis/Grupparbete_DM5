@@ -24,10 +24,14 @@ Webbsajten ni ska bygga är någonting av följande:
 - [ ] Det ska kunna gå att validera sidans HTML5-kod med godkänt resultat. Er CSS-kod kan vara underkänd om det rör sig om kod som följer med ex ett bildspel eller Google Calendar.  
 - [ ] Vilka sökord ska er webbsajt sökmotorsoptimeras för?
 
-> Studera dokumentet "Handbok för SEO-optimering".
-> Webbsajten ska SEO-optimeras så att 1:a sidan får minst 70 av 100 poäng på vardera av 2-4 sökord som ni valt, då 1:a sidan SEO-valideras.
-> OBS! Ett av sökorden ska vara webbsajtens namn.
-> Följande valideringstjänst ska användas: http://www.sokmotorkonsult.se/verktyg/onpage.
+|SÖKORD||
+|:-|:-|
+|||
+
+> Studera dokumentet "Handbok för SEO-optimering".  
+> Webbsajten ska SEO-optimeras så att 1:a sidan får minst 70 av 100 poäng på vardera av 2-4 sökord som ni valt, då 1:a sidan SEO-valideras.  
+> OBS! Ett av sökorden ska vara webbsajtens namn.  
+> Följande valideringstjänst ska användas: http://www.sokmotorkonsult.se/verktyg/onpage.  
 > Ange som kommentar i er kod vilka sökord ni har valt och vilka åtgärder ni har gjort för att optimera SEO.  
 
 - [ ] Webbsajten ska fungera väl i Chrome  
