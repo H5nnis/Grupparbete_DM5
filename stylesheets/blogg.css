@@ -95,7 +95,7 @@ tr td:first-child{
 }
 
 footer img {
-    padding: 0;
+    padding-top: 7px;
     height: 80px; 
     width: 80px;
     float: left;
@@ -106,7 +106,6 @@ footer img {
     color: #ffffff;
     height: 100px;
     width: 1200px;
-    margin: 0 auto;
 }
 
 .container-bottom {
@@ -115,7 +114,7 @@ footer img {
 }
 
 #one-foot {
-    width: 40%;
+    width: 50%;
     text-align: center;
 }
 
@@ -123,18 +122,12 @@ footer img {
     width: 50%;
 }
 
-#three-foot {
-    width: 40%;
-}
-
-#instatext {
-	text-align: left;
-	
-}
-
 #grad1 {
 	background: linear-gradient(to right, purple, cyan, orange, yellow, green, cyan, blue, violet);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-size: 16px;
+	height: 100px;
+	width: 200px;	
 }
+
