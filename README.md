@@ -39,6 +39,10 @@ Kittens||||||
 > Följande valideringstjänst ska användas: http://www.sokmotorkonsult.se/verktyg/onpage.  
 > Ange som kommentar i er kod vilka sökord ni har valt och vilka åtgärder ni har gjort för att optimera SEO.  
 
+[Google Search Central - Improve snippets with a meta description makeover](https://developers.google.com/search/blog/2007/09/improve-snippets-with-meta-description)
+
+[Google Security Central - Quick security checklist for webmasters](https://developers.google.com/search/blog/2007/09/quick-security-checklist-for-webmasters)
+
 - [ ] Webbsajten ska fungera väl i Chrome  
 - [ ] Webbsajten ska publiceras på skolans eller egen webbserver.  
 - [ ] Webbsajtens URL ska publiceras i Learn under Uppgifter > Projektet.  
