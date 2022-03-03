@@ -19,15 +19,19 @@ html {
   box-sizing: inherit;
 }
 
-#banner {
-}
-#nav {
-    background: rgb(30, 30, 30);
-    background-image: url(../images/Dandelion.png);
+#headerimg {
+    background-image: url(../images/AboutImg.jpg);
     width: 1200px;
-    margin: 0 auto;
-    padding-top: 30px;
-    padding-bottom: 20px;
+	height: 160px;
+    margin: auto;
+	border-bottom: #303030 4px solid;
+}
+
+#nav {
+    background-color: #1e1e1e;
+    width: 1200px;
+    margin: auto;
+	height: 37px;
     font-size: 25px;
     font-family: 'Quicksand';
 }
