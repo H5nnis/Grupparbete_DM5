@@ -43,6 +43,10 @@ Kittens||||||
 
 [Google Security Central - Quick security checklist for webmasters](https://developers.google.com/search/blog/2007/09/quick-security-checklist-for-webmasters)
 
+[Lista över bra SEO-verktyg](https://www.seo-forum.se/showthread.php?t=7225)
+
+[GoMockingBird](https://gomockingbird.com/mockingbird/)
+
 - [ ] Webbsajten ska fungera väl i Chrome  
 - [ ] Webbsajten ska publiceras på skolans eller egen webbserver.  
 - [ ] Webbsajtens URL ska publiceras i Learn under Uppgifter > Projektet.  
