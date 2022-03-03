@@ -24,9 +24,9 @@ Webbsajten ni ska bygga är någonting av följande:
 - [ ] Det ska kunna gå att validera sidans HTML5-kod med godkänt resultat. Er CSS-kod kan vara underkänd om det rör sig om kod som följer med ex ett bildspel eller Google Calendar.  
 - [ ] Vilka sökord ska er webbsajt sökmotorsoptimeras för?
 
-|SÖKORD||
-|:-|:-|
-|||
+|SÖKORD|
+|:-|
+||
 
 > Studera dokumentet "Handbok för SEO-optimering".  
 > Webbsajten ska SEO-optimeras så att 1:a sidan får minst 70 av 100 poäng på vardera av 2-4 sökord som ni valt, då 1:a sidan SEO-valideras.  
@@ -37,7 +37,7 @@ Webbsajten ni ska bygga är någonting av följande:
 - [ ] Webbsajten ska fungera väl i Chrome  
 - [ ] Webbsajten ska publiceras på skolans eller egen webbserver.  
 - [ ] Webbsajtens URL ska publiceras i Learn under Uppgifter > Projektet.  
-- [ ] OBS. Inga html- eller CSS-filer ska lämnas in i Learn, endast er webbsajts URL.  
+- [ ] __OBS__ Inga html- eller CSS-filer ska lämnas in i Learn, endast er webbsajts URL.  
 
 ### Övrigt  
 
