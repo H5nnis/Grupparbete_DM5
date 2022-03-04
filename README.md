@@ -26,19 +26,28 @@ Webbsajten ni ska bygga är någonting av följande:
 
 |SÖKORD|
 |:-|
-Cats|
-Kittens|
-Whiskerpaws|
-Cat Ads|
-Kitten Ads|
-Cat Care|
-Kitten Care|
+
+|Hem|Kattföräldrar|Kattungar|Skötselråd|Blogg|Om Oss|Kontakta Oss|
+|:-|:-|:-|:-|:-|:-|:-|
+Whiskerpaws|Cats|Kittens|Cat Care|Blog|About|Contact
+Cats|Cat Ads|Kitten Ads|Kitten Care|||
+Kittens||||||
 
 > Studera dokumentet "Handbok för SEO-optimering".  
 > Webbsajten ska SEO-optimeras så att 1:a sidan får minst 70 av 100 poäng på vardera av 2-4 sökord som ni valt, då 1:a sidan SEO-valideras.  
 > OBS! Ett av sökorden ska vara webbsajtens namn.  
 > Följande valideringstjänst ska användas: http://www.sokmotorkonsult.se/verktyg/onpage.  
 > Ange som kommentar i er kod vilka sökord ni har valt och vilka åtgärder ni har gjort för att optimera SEO.  
+
+[Google Search Central - Improve snippets with a meta description makeover](https://developers.google.com/search/blog/2007/09/improve-snippets-with-meta-description)
+
+[Google Security Central - Quick security checklist for webmasters](https://developers.google.com/search/blog/2007/09/quick-security-checklist-for-webmasters)
+
+[Lista över bra SEO-verktyg](https://www.seo-forum.se/showthread.php?t=7225)
+
+[GoMockingBird](https://gomockingbird.com/mockingbird/)
+
+[Handbok för SEO-optimering](https://github.com/H5nnis/Grupparbete_DM5/files/8181912/Handbok.for.SEO-optimering.1.pdf)
 
 - [ ] Webbsajten ska fungera väl i Chrome  
 - [ ] Webbsajten ska publiceras på skolans eller egen webbserver.  
@@ -51,4 +60,4 @@ Kitten Care|
 
 • För att underlätta valideringen ska mallen för laborationen användas på webbplatsens samtliga sidor. Mallens direktlänkar till html- och css-validering kan tas bort efter att er webbsajt blivit granskad och godkänd.  
 
-• Sätt in elementet så förhindrar ni att projektplatsen indexeras av sökmotorerna. Ingen utomstående kan hitta och se ert material. 
+• Sätt in elementet \<meta name="robots" content="noindex,nofollow"\> så förhindrar ni att projektplatsen indexeras av sökmotorerna. Ingen utomstående kan hitta och se ert material. 
