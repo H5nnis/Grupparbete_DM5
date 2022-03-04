@@ -177,7 +177,7 @@ header {
 	width: 50%;
 }
 
-#name {
+.name {
 	padding-left: 0%;
 	text-align: left;
 }
@@ -187,18 +187,11 @@ header {
   text-align: left;
 }
 
-#email {
-	color: #6d9bc3;
-	font-family: 'Red Hat Display', sans-serif;
-	font-size: 12px;
-	text-decoration: none;
-}
-
 form {
 	width: 100%;
 }
 
-#textsubject {
+.textsubject {
 	width: 60%;
 }
 
@@ -216,13 +209,13 @@ form {
 	display: flex;
 }
 
-#textarea {
+.textarea {
 	height: 76px;
 	width: 80%;
 	text-align: left;
 }
 
-#wrapper {
+.wrapper {
 	width: 80%;
 	text-align: center;
 }
@@ -242,7 +235,7 @@ form {
   background-color: #555;
 }
 
-#navlink {
+.navlink {
     color: rgb(255, 255, 255);
     padding: 20px;
     padding-left: 20px;
@@ -250,17 +243,17 @@ form {
     letter-spacing:0.1rem;
 }
 
-#navlink:hover {
+.navlink:hover {
     color: #a6d1db;
 }
 
-#navlink:focus {
+.navlink:focus {
     color: #a6d1db;
 }
 
 .input,
 .textarea {
-  width: 100%;
+  width: 90%;
   height: 40px;
   padding: 10px 15px;
   margin-bottom: 10px;
@@ -323,5 +316,12 @@ footer img {
 	background: linear-gradient(to right, purple, cyan, orange, yellow, green, cyan, blue, violet);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+	font-size: 16px;
+}
+
+.email {
+	text-decoration: none;
+	color: #6d9bc3;
+	font-family: 'Red Hat Display', sans-serif;
 	font-size: 16px;
 }
