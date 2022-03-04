@@ -257,11 +257,11 @@ form {
 }
 
 #navlink:hover {
-    color: rgb(27, 71, 88);
+    color: #a6d1db;
 }
 
 #navlink:focus {
-    color: rgb(27, 71, 88);
+    color: #a6d1db;
 }
 
 .input,
