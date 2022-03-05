@@ -75,7 +75,7 @@
 			<h3 class="name">Jenny Donna</h3>
 			<p class="jobtitle">Grundare</p>
 			<p><a class="email" href="mailto:jennydonna@no-reply.fake">jennydonna@no-reply.fake</a></p>
-			<form action="javascript:emailFounder()" enctype="text/plain">
+			<form action="javascript:sendEmail('founder')" enctype="text/plain">
 			<input name="cname1" id="cname1" class="input" type="text" placeholder="Skriv ett ämne"><br>
 			<textarea name="cmessage1" id="cmessage1" class="textarea" placeholder="Skriv ett meddelande"></textarea><br>
 				<div class="wrapper">
@@ -91,7 +91,7 @@
 			<p>
 				<a class="email" href="mailto:peter.pan@no-reply.fake">peter.pan@no-reply.fake</a>
 			</p>
-			<form action="javascript:emailCaretaker()" enctype="text/plain">
+			<form action="javascript:sendEmail('careTaker')" enctype="text/plain">
 				<input name="cname2" id="cname2" class="input" type="text" placeholder="Skriv ett ämne"><br>
 				<textarea name="cmessage2" id="cmessage2" class="textarea" placeholder="Skriv ett meddelande"></textarea><br>
 				<div class="wrapper">
@@ -115,15 +115,24 @@
 	</table>
 </footer>
 <script>
-function emailFounder() {    
-    var body = document.getElementById("cmessage1").value;
-    var subject = document.getElementById("cname1").value;
-    window.location.replace(`mailto:jennydonna@no-reply.fake?body=${body}&subject=${subject}`);    
-}
-function emailCaretaker() {    
-    var body = document.getElementById("cmessage2").value;
-    var subject = document.getElementById("cname2").value;
-    window.location.replace(`mailto:peter.pan@no-reply.fake?body=${body}&subject=${subject}`);    
+function sendEmail (to) {
+    const people = {
+      founder: {
+        id: 1,
+        email: "jennydonna@no-reply.fake"
+      },
+      careTaker: {
+        id: 2,
+        email: "peter.pan@no-reply.fake"
+      }
+    }
+
+    const id = people[to].id
+    const email = people[to].email
+    const subject = document.getElementById(`cname${id}`).value
+    const body = document.getElementById(`cmessage${id}`).value
+
+    window.location.replace(`mailto:${email}?body=${body}&subject=${subject}`)   
 }
 </script>
 </body>
