@@ -6,6 +6,60 @@ Welcome to Whiskerpaws!
 
 ---
 
+### Noteringar
+
+#### index.html
+
+```html
+# # # Meta taggar - index.html
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8;" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Whiskerpaws</title>
+	<meta name="description" content="Uppfödare av Ragchillas & Ragdolls." />
+	<meta name="copyright" content="Content is licensed to University Dalarna, Sweden." />
+	<meta name="keywords" content="Whiskerpaws,Ragdoll,Ragdolls,Ragchillas,Ragchilla,Cats,Cat,Kittens,Kitten" />
+	<meta name="robots" content="index,follow" />
+	<meta name="author" content="Authors: H5nnis <H5nnis@users.noreply.github.com> & ZendaiOwl <ZendaiOwl@users.noreply.github.com>" />
+```
+
+#### about.html
+
+```html
+
+```
+
+#### blogg.html
+
+```html
+
+```
+
+#### care-advice.html
+
+```html
+
+```
+
+#### contact.html
+
+```html
+
+```
+
+#### overview-cats.html	
+
+```html
+
+```
+
+#### overview-kittens.html
+
+```html
+
+```
+
+---
+
 # Uppgiften
 
 ## Bygg en webbsajt  
