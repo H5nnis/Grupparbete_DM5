@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 *{padding: 0%; margin: 0%;}
 
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 header {    
     color: #ffffff;
     height: auto;
@@ -21,6 +29,10 @@ body {
     background-color:#303030;
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	color: transparent;
 }
 
 .nav {
@@ -55,10 +67,9 @@ a {
     letter-spacing:0.1rem;
 }
 
-img{
+img {
     height: 200px;
     width: 200px;
-    position:center;
     border: #1e1e1e 3px solid;
 }
 
@@ -85,7 +96,7 @@ img{
     padding-top: 5px;
 }
 
-tr td:first-child{
+tr td:first-child {
     width: 10px;
 }
 
@@ -110,7 +121,6 @@ tr td:first-child{
 }
 
 footer img {
-    padding: 0;
     height: 80px; 
     width: 80px;
 }
@@ -136,8 +146,7 @@ footer img {
 }
 
 #one-foot {
-    width: 50%;
-    text-align: center;
+    width: 45%;
 }
 
 #two-foot {
