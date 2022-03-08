@@ -12,7 +12,7 @@ Welcome to Whiskerpaws!
 
 ```html
 # # # Meta taggar - index.html
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8;" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<title>Whiskerpaws</title>
 	<meta name="description" content="Uppfödare av Ragchillas & Ragdolls." />
@@ -24,7 +24,7 @@ Welcome to Whiskerpaws!
 
 #### 404-page.html
 ```html
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8;" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<title>404 Not Found</title>
 	<meta name="description" content="A 404-page shown when someone is trying to access a URL that does not exist." />
@@ -50,7 +50,7 @@ Welcome to Whiskerpaws!
 #### blogg.html
 
 ```html
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8;" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<title>Blogg</title>
 	<meta name="description" content="Våran blogg som uppfödare & våran vardag samt annonser för katter som är redo att finna ett hem." />
@@ -64,7 +64,7 @@ Welcome to Whiskerpaws!
 #### care-advice.html
 
 ```html
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8;" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<title>Skötselråd</title>
 	<meta name="description" content="Skötselråd från uppfödare av Ragchillas & Ragdolls" />
@@ -78,7 +78,7 @@ Welcome to Whiskerpaws!
 #### contact.html
 
 ```html
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8;" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<title>Kontakta oss</title>
 	<meta name="description" content="Kontaktinformation för Whiskerpaws" />
@@ -91,7 +91,7 @@ Welcome to Whiskerpaws!
 #### overview-cats.html	
 
 ```html
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8;" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<title>Kattföräldrar</title>
 	<meta name="description" content="Alla våra fullvuxna katter som söker ett hem & deras annonser" />
@@ -104,7 +104,7 @@ Welcome to Whiskerpaws!
 #### overview-kittens.html
 
 ```html
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8;" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<title>Kattungar</title>
 	<meta name="description" content="Alla våra kattungar som söker ett hem och deras annonser" />
@@ -136,7 +136,6 @@ Webbsajten ni ska bygga är någonting av följande:
 
 |SÖKORD|
 |:-|
-
 
 |index.html|
 |:-|
