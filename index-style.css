@@ -116,13 +116,13 @@ td img {
     overflow-x: hidden;
 }
 
-.title, .textinfo {
+.title, .textinfo, h1 {
     margin-left: 5px;
     text-align: left;
     padding-bottom: 10px;
 }
 
-.title {
+.title, h1 {
     margin-top: 20px;
     font-size: 25px;
     font-weight: bold;
