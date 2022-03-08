@@ -69,7 +69,7 @@ Welcome to Whiskerpaws!
 	<title>Skötselråd</title>
 	<meta name="description" content="Skötselråd från uppfödare av Ragchillas & Ragdolls" />
 	<meta name="copyright" content="Content is licensed to University Dalarna, Sweden." />
-	<meta name="keywords" content="skötselråd,care advice,cat care,ragchillas skötselråd,ragdolls skötselråd," />
+	<meta name="keywords" content="skötselråd,care advice,cat care,ragchillas skötselråd,ragdolls skötselråd" />
 	<meta name="robots" content="index,follow" />
 	<meta name="author" content="Authors: H5nnis <H5nnis@users.noreply.github.com> & ZendaiOwl <ZendaiOwl@users.noreply.github.com>" />
 	<link rel="stylesheet" type="text/css" href="../stylesheets/care-advice.css" />
@@ -137,14 +137,78 @@ Webbsajten ni ska bygga är någonting av följande:
 |SÖKORD|
 |:-|
 
-|Hem|Kattföräldrar|Kattungar|Skötselråd|Blogg|Om Oss|Kontakta Oss|
-|:-|:-|:-|:-|:-|:-|:-|
-Whiskerpaws|Cats|Kittens|Cat Care|Blog|About|Contact
-Cats|Cat Ads|Kitten Ads|Kitten Care|Blogg|Om oss|Kontakt
-Kittens|Annonser Katter|Annonser Kattungar|Skötselråd Katt|Blog|Personalinformation|Contact
-Katter||||Dagbok||Email
-Kattungar||||||
-||||||
+
+|index.html|
+|:-|
+whiskerpaws|
+ragdoll|
+ragdolls|
+ragchillas|
+ragchilla|
+cats|
+cat|
+kittens|
+kitten|
+
+|404-page.html|
+|:-|
+|404|
+|404 Not Found|
+|not|
+|found|
+|Not|
+|Found|
+|404 not found|
+
+|about.html|
+|:-|
+|Whiskerpaws|
+|Om oss|
+|About ut|
+
+|blogg.html|
+|:-|
+|Whiskerpaws|
+|Blogg|
+|Blog|
+|Inlägg|
+|Blogginlägg|
+|Blogg inlägg|
+|Katter|
+|Kattungar|
+
+|care-advice.html|
+|:-|
+|skötselråd|
+|care advice|
+|cat care|
+|ragchillas skötselråd|
+|ragdolls skötselråd|
+
+|contact.html|
+|:-|
+|whiskerpaws|
+|kontakt|
+|contact|
+|kontakt information|
+|kontaktinformation|
+|boka tid|
+|plats
+
+|overview-cats.html|
+|:-|
+|whiskerpaws|
+|kattföräldrar|
+|katter|
+|annonser|
+|katt
+
+|overview-kittens.html|
+|:-|
+|whiskerpaws|
+|kattungar|
+|kittens|
+|annonser|
 
 > Studera dokumentet "Handbok för SEO-optimering".  
 > Webbsajten ska SEO-optimeras så att 1:a sidan får minst 70 av 100 poäng på vardera av 2-4 sökord som ni valt, då 1:a sidan SEO-valideras.  
