@@ -66,19 +66,40 @@ Welcome to Whiskerpaws!
 #### contact.html
 
 ```html
-
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8;" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Kontakta oss</title>
+	<meta name="description" content="Kontaktinformation för Whiskerpaws" />
+	<meta name="copyright" content="Content is licensed to University Dalarna, Sweden." />
+	<meta name="keywords" content="whiskerpaws,kontakt,contact,kontakt information,kontaktinformation,boka tid,plats" />
+	<meta name="robots" content="index,follow" />
+	<meta name="author" content="Authors: H5nnis <H5nnis@users.noreply.github.com> & ZendaiOwl <ZendaiOwl@users.noreply.github.com>" />
 ```
 
 #### overview-cats.html	
 
 ```html
-
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8;" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Kattföräldrar</title>
+	<meta name="description" content="Alla våra fullvuxna katter som söker ett hem & deras annonser" />
+	<meta name="copyright" content="Content is licensed to University Dalarna, Sweden." />
+	<meta name="keywords" content="whiskerpaws,kattföräldrar,katter,annonser,katt" />
+	<meta name="robots" content="index,follow" />
+	<meta name="author" content="Authors: H5nnis <H5nnis@users.noreply.github.com> & ZendaiOwl <ZendaiOwl@users.noreply.github.com>" />
 ```
 
 #### overview-kittens.html
 
 ```html
-
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8;" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Kattungar</title>
+	<meta name="description" content="Alla våra kattungar som söker ett hem och deras annonser" />
+	<meta name="copyright" content="Content is licensed to University Dalarna, Sweden." />
+	<meta name="keywords" content="whiskerpaws,kattungar,kittens,annonser" />
+	<meta name="robots" content="index,follow" />
+	<meta name="author" content="Authors: H5nnis <H5nnis@users.noreply.github.com> & ZendaiOwl <ZendaiOwl@users.noreply.github.com>" />
 ```
 
 ---
