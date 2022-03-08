@@ -22,6 +22,18 @@ Welcome to Whiskerpaws!
 	<meta name="author" content="Authors: H5nnis <H5nnis@users.noreply.github.com> & ZendaiOwl <ZendaiOwl@users.noreply.github.com>" />
 ```
 
+#### 404-page.html
+```html
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8;" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>404 Not Found</title>
+	<meta name="description" content="A 404-page shown when someone is trying to access a URL that does not exist." />
+	<meta name="copyright" content="Content is licensed to University Dalarna, Sweden." />
+	<meta name="keywords" content="404, 404 Not Found,not,found,Not,Found,404 not found" />
+	<meta name="robots" content="index,follow" />
+	<meta name="author" content="Authors: H5nnis <H5nnis@users.noreply.github.com> & ZendaiOwl <ZendaiOwl@users.noreply.github.com>" />
+```
+
 #### about.html
 
 ```html
