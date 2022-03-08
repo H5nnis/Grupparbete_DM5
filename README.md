@@ -30,10 +30,10 @@ Webbsajten ni ska bygga är någonting av följande:
 |Hem|Kattföräldrar|Kattungar|Skötselråd|Blogg|Om Oss|Kontakta Oss|
 |:-|:-|:-|:-|:-|:-|:-|
 Whiskerpaws|Cats|Kittens|Cat Care|Blog|About|Contact
-Cats|Cat Ads|Kitten Ads|Kitten Care|||
-Kittens||||||
-||||||
-||||||
+Cats|Cat Ads|Kitten Ads|Kitten Care|Blogg|Om oss|Kontakt
+Kittens|Annonser Katter|Annonser Kattungar|Skötselråd Katt|Blog|Personalinformation|Contact
+Katter||||Dagbok||Email
+Kattungar||||||
 ||||||
 
 > Studera dokumentet "Handbok för SEO-optimering".  
