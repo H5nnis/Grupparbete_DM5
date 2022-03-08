@@ -4,13 +4,13 @@
 header {    
     color: #ffffff;
     height: auto;
-    width: 1200px;
+    width: 1280px;
     margin: auto;
 }
 
 img {
     height: 160px;
-    width: 1200px;
+    width: 1280px;
     padding-bottom: 0%;
     border: none;
     padding: 0%; 
@@ -27,7 +27,7 @@ body {
     background: #1e1e1e;
     color: rgb(0, 0, 0);
     height: 37px;
-    width: 1200px;
+    width: 1280px;
     margin: auto;
 }
 
@@ -51,7 +51,7 @@ body {
 
 #main-container {
     border: none;
-    max-width: 1200px;
+    max-width: 1280px;
     min-width: 100px;
     margin: auto;
     background-color: #1e1e1e;
