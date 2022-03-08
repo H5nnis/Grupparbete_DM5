@@ -32,6 +32,9 @@ Webbsajten ni ska bygga är någonting av följande:
 Whiskerpaws|Cats|Kittens|Cat Care|Blog|About|Contact
 Cats|Cat Ads|Kitten Ads|Kitten Care|||
 Kittens||||||
+||||||
+||||||
+||||||
 
 > Studera dokumentet "Handbok för SEO-optimering".  
 > Webbsajten ska SEO-optimeras så att 1:a sidan får minst 70 av 100 poäng på vardera av 2-4 sökord som ni valt, då 1:a sidan SEO-valideras.  
