@@ -40,7 +40,7 @@ Welcome to Whiskerpaws!
 ```html
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8;" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>Nyheter</title>
+	<title>Blogg</title>
 	<meta name="description" content="Våran blogg som uppfödare & våran vardag samt annonser för katter som är redo att finna ett hem." />
 	<meta name="copyright" content="Content is licensed to University Dalarna, Sweden." />
 	<meta name="keywords" content="Whiskerpaws,Blogg,Blog,Inlägg,Blogginlägg,Blogg inlägg,Katter,Kattungar" />
