@@ -25,7 +25,14 @@ Welcome to Whiskerpaws!
 #### about.html
 
 ```html
-
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Om oss</title>
+	<meta name="description" content="Information om oss som jobbar hos Whiskerpaws med katterna & kattungarna." />
+	<meta name="copyright" content="Content is licensed to University Dalarna, Sweden." />
+	<meta name="keywords" content="Whiskerpaws,Om oss,About ut" />
+	<meta name="robots" content="index,follow" />
+	<meta name="author" content="Authors: H5nnis <H5nnis@users.noreply.github.com> & ZendaiOwl <ZendaiOwl@users.noreply.github.com>" />
 ```
 
 #### blogg.html
