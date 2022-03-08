@@ -128,6 +128,13 @@ footer img {
     height: 100px;
 }
 
+#grad1 {
+	background: linear-gradient(to right, purple, cyan, orange, yellow, green, cyan, blue, violet);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 16px;
+}
+
 #one-foot {
     width: 50%;
     text-align: center;
@@ -139,11 +146,4 @@ footer img {
 
 #three-foot {
 	width: 45%;
-}
-
-#grad1 {
-	background: linear-gradient(to right, purple, cyan, orange, yellow, green, cyan, blue, violet);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	font-size: 16px;
 }
